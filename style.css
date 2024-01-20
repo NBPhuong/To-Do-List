@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgb(28, 5, 236), rgb(241, 6, 245));
+
+}
+.container {
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 50px;
+    text-shadow: 0.5px 0.5px rgb(200,245,1);
+
+  }
+  .add-task input[type="text"],
+  .add-task input[type="datetime-local"] {
+    width: 250px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+  }
+  .add-task button{
+    width: 70px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: rgb(11, 128, 245);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .filter-task {
+    margin-top: 20px;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px rgb(200,245,1);
+
+  }
+  .filter-task #filter-select{
+    width: 20%;
+    height: auto;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    color:white;
+    padding: 10px;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
