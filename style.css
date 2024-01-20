@@ -34,13 +34,13 @@ body {
     font-size: 15px;
     font-weight: bold;
   }
-  .filter-task {
+  .filter-tasks {
     margin-top: 20px;
     font-size: 25px;
     text-shadow: 0.5px 0.5px rgb(200,245,1);
 
   }
-  .filter-task #filter-select{
+  .filter-tasks #filterSelect{
     width: 20%;
     height: auto;
   }
